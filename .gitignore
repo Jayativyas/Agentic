@@ -1,0 +1,24 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.vscode/*.local.json
+.DS_Store
+Thumbs.db
+
+# Runtime artefacts (created after later project phases)
+data/runtime/
+data/evaluation/cases.json
+logs/
+
